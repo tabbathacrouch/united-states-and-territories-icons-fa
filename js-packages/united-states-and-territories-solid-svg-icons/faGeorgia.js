@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'georgia';
+var width = 384;
+var height = 512;
+var aliases = ["ga"];
+var unicode = 'e90b';
+var svgPathData = 'm.1 32 52.7.6 64.2.7 80.7-1.2-4.7 8-12.3 12.7-1 9.7 13.5 9.2 7.8 8.6 16.3 4 2.5 9 7.4 11 2.1 9.8 9.8 11.5 3.2 8.2 17 10.7 8 7.7 4.2 11.8 12.2 6.3 10.9 12-2.5 7.2 15 19.5 12 6 10.2 8.4-.8 6.6 6.8 9.9 3 23 9 3.7 13.4 24-2.7 6 3.7 12.4 9 1 13.2 10.7-6 4.9-16.7 21.2.4 8.9-4 11.2-9.1 14.4 2 10-11 14.2.8 20.9-4.3 15.7-8.4 3-13.2-2.9-7.4-4.2-13-2.6-6 6.3 2.3 15.5-2.7 22.3-10.2.5-3.4-6.3-.5-13.9-76.3-4.8-77-5-67-4.2L42 420.3l-2.4-13-5.3-5.6-1-9.6 6.4-26.6-6.7-15-1-15.9 7.3-14.5-.4-11.8 11-8.2-5.8-10 2.6-11.7-10.6-19.7-6-21.9-12.5-85.2-8-56Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faGeorgia = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

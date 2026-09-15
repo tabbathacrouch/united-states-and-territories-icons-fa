@@ -1,0 +1,29 @@
+{
+  "name": "united-states-and-territories-icons-fa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "US state and territory silhouettes in Font Awesome's icon format",
+  "author": "Tabbatha Crouch",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "fetch": "sh pipeline/fetch.sh",
+    "extract": "node pipeline/extract.mjs",
+    "build": "node pipeline/build-icons.mjs",
+    "emit": "node pipeline/emit.mjs",
+    "verify": "node pipeline/verify.mjs",
+    "test": "node pipeline/verify.mjs",
+    "sheet": "node pipeline/contact-sheet.mjs",
+    "all": "npm run extract && npm run build && npm run emit && npm run verify && npm run sheet"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-common-types": "^7.3.1",
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "d3-geo": "^3.1.1",
+    "mapshaper": "0.7.61",
+    "svgo": "^4.1.0"
+  }
+}

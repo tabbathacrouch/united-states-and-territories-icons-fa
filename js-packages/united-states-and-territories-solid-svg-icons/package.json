@@ -1,0 +1,56 @@
+{
+  "name": "united-states-and-territories-solid-svg-icons",
+  "version": "0.1.0",
+  "description": "United States and Territories Icons: US state and territory silhouettes in Font Awesome's icon format",
+  "keywords": [
+    "fontawesome",
+    "icon",
+    "svg",
+    "us-states",
+    "territories",
+    "map"
+  ],
+  "homepage": "https://github.com/tabbathacrouch/united-states-and-territories-icons-fa",
+  "bugs": {
+    "url": "https://github.com/tabbathacrouch/united-states-and-territories-icons-fa/issues"
+  },
+  "author": "Tabbatha Crouch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tabbathacrouch/united-states-and-territories-icons-fa"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^7.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./index": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./index.js": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json",
+    "./*": "./*.js"
+  }
+}

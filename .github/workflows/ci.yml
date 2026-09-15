@@ -1,0 +1,40 @@
+# Rebuilds every icon from the Census source, verifies it, and fails if the committed
+# outputs differ from what the pipeline produces (hand edits, or a change that wasn't regenerated).
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  rebuild-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # The Census zip only changes with a new vintage, so cache it by the fetch script's contents
+      - uses: actions/cache@v4
+        with:
+          path: pipeline/data
+          key: census-${{ hashFiles('pipeline/fetch.sh') }}
+
+      - run: npm run fetch
+
+      - run: npm run all
+
+      - name: Committed outputs match a fresh build
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git status --short
+            git --no-pager diff --stat
+            echo "::error::Generated files are out of date. Run 'npm run all' and commit the result."
+            exit 1
+          fi

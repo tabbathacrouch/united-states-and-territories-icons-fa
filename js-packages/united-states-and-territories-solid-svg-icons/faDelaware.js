@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'delaware';
+var width = 256;
+var height = 512;
+var aliases = ["de"];
+var unicode = 'e909';
+var svgPathData = 'm21.9 43 24.8-29.6L70.6 1.8 83.8 0l20.3 2.1 21.4 9.9-12.7 7.4-11.6 24.5-15 23.4-7.2 2.1-7.9 13 .9 6.8 13.9 13-2.7 16.6-5.9 14 6 15 9.5 8.2 7.3 18.6 5.4 7.2 15.7 12.2 1.3 8.5 7.3 9.7 3.5 22-4.7 19 5 35.2 15.8 14 8.5 19.2-1.6 12.7 3.8 7.4 32.7 39.2 16.3 9 10.6-2.4 4.4 6 5 41 5.1 77.5h-97l-89.4-3-6.6-112.8-8.8-147.4L24 106.5l-2.1-39.9Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faDelaware = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

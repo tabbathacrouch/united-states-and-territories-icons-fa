@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'ohio';
+var width = 448;
+var height = 512;
+var aliases = ["oh"];
+var unicode = 'e926';
+var svgPathData = 'm27.1 67.6 41.5-.5 84.3-2.2 11 3.5 12 8.8 12.3 4.4 9.8 9.6 7.6.3 5.1-8.2 10 9.4-21.7 2.9 3.1 8.7 10.6-6.4 12.3-1 7.5 7.3 11.2 4.7 11-5.7 10.1-1L287.4 92l14 4 11-.7 13.4-9.3 19.4-18.6 35.5-18.8 9.5-2.1 35-14.4 2.4 90.8 2 76-10.2 2.6-3.6 5.9 6.7 11.2.4 20.5-9.5 20.6-2.8 23-6 6.6 1.2 6.8-6.6 14-1 16.5-13.7 8.8-10.3 13.6-8.5 7.5-11.9 5.2-10.5-7.7-9.7 9-1 8.8-10.5-.6-7.4 12.1.5 10.9-2.7 15.6-6 4.6-8.7-7.3-10.1-4.4-10.1 15.8-.1 7.1-7 5.7 3.4 10.8-.5 14.2-10 2-3 16.2-20.1 5.6-19.1-19-12-4.6-4.5-20.2-13.5 4-11.8 13.1-9-1.2-4.7 4-7-7.8-15-5.7-10.4 2.9-4.4 6.4-9.7-4-8.3-12.3-11.6-4-9 2-13.7-4.6-2-11-6.5-14.2-19.7-11.2-11.9 1.9-11.6-9-6.5 5 2.6-88.3 2.4-62 1.5-61Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faOhio = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

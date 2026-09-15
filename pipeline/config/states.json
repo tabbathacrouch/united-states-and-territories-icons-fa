@@ -1,0 +1,21 @@
+{
+  "source": "cb_2025_us_state_500k",
+  "prefix": "usat",
+  "expected": [
+    "AK", "AL", "AR", "AS", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "GU", "HI", "IA", "ID",
+    "IL", "IN", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MO", "MP", "MS", "MT", "NC", "ND",
+    "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX",
+    "UT", "VA", "VI", "VT", "WA", "WI", "WV", "WY"
+  ],
+  "defaults": { "minArea": "80km2", "simplify": "resolution=64x64" },
+  "overrides": {
+    "AK": { "clip": [-172, 51, -129, 72], "minArea": "150km2" },
+    "HI": { "clip": [-160.5, 18.7, -154.5, 22.5], "minArea": "30km2" },
+    "AS": { "clip": [-171.1, -14.6, -169.3, -14.1], "minArea": "5km2" },
+    "MP": { "clip": [145.0, 14.0, 146.2, 15.4], "minArea": "50km2" },
+    "PR": { "minArea": "20km2" },
+    "VI": { "minArea": "20km2" },
+    "FL": { "minArea": "20km2" }
+  },
+  "names": { "VI": "us-virgin-islands", "MP": "northern-mariana-islands" }
+}

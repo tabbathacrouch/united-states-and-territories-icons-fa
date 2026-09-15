@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'hawaii';
+var width = 512;
+var height = 512;
+var aliases = ["hi"];
+var unicode = 'e90d';
+var svgPathData = 'm382.6 351 14.4-14 10.2-19-8.4-18.6 7-7.9 25.7 16.3 15.7 2.9 16.5 8 19.6 17 .4 14.4 9-.3 2.2 10.2 17.1 18.1-15.7 14.4-22.9 10.6-10.6-.8-21.6 14.4-16 23.5-23.6-12.2-4-9 3.2-25.5-9.1-28.6Zm-66-131.3 3.3-8.8 11-2 8.2 12.9 16.3-5.4 8.5 1.2 13.8 12.5 11 3.5-4.8 15.3-33.9 8.6-6.9-3.2-2-19.3-16.3-3.2Zm-37.5 1.5 18.4-.2 7.9 9.2-2.5 6L289 240Zm-25.3-23 7-12 38.5 6.4-1 12.8-22.7-6.5Zm-99.5-52.8 15.9-.5 16.1-13.9 12.3 18 .8 10.2 13.5 8.6 5.6 9-15 4.6-9.3-5.6-23.3.3ZM0 92.7l6.1-12 15.5-9L46.3 74l4.7 7.2-4.2 20.3-12 9.9-16.7-3.8-15.3-9.1Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faHawaii = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'mississippi';
+var width = 320;
+var height = 512;
+var aliases = ["ms"];
+var unicode = 'e91c';
+var svgPathData = 'm47.4 211.3 7.3-14L50 180l.4-13.5-7.4-15.1 7.8-6.2.6-16.5 11-15.6 2.1-9.3 8.1-.6 7.2-16.6-1.4-9.7 5.8-7.8 13.6-4.4 6.6-17.7-4.4-6.5 10.7-5.3-.5-13.2 19-10.4L125 .7l100.2.3 83.2-1 9 10.8-8.5 91.8-9.3 101.6-5.7 66.4-5.5 59 3.9 68.6 5 93-9.9 5.4-28.1-7.7-24.5 2.8-30.8 12-7.6 8-6.7.3-7-11.8-3.4-17-7.7-6.7-7.2-16.5 5.8-16.7 2.9-18.5h-57.2L2.6 423.5l.2-12.5 10-16.7.7-27 11-12 5-21 13-6.8L54 316.2l3.5-8.6-11.1-3.8V297l11.6-4.6 11.1-10.2-4.7-10.1-11.5-2.8.3-9.6L48 250l1-21.4-6-8.5Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faMississippi = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

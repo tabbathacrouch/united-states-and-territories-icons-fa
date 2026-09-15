@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'usat';
+var iconName = 'oklahoma';
+var width = 512;
+var height = 512;
+var aliases = ["ok"];
+var unicode = 'e927';
+var svgPathData = 'm2 128.7 56.6 3.4 77.2 2.6 64 1.7 76.4 1.3h78.1l60.8-.6 81.6-1.8 1 37 13.7 81.3v36.8l.6 93-24.1-7.6-11.7-11-9.5-4.2-3.9 6.3h-15.6l-37.6 3.9-1.8 5.7-15-1-15.5-9.9-11.8 4.5-3.5-7.8-15.3 16.4-.5-11.4-17.3 3.8L316 360l-12 10.5-4.8-10.3-8.4-1.1-5.2-8.3-12-3.3-7.5 7-6.8-7.4-10.2 1.7-14.3-6.2h-11.5l-1.1-9-22.5-6.3-7 2.6-11.4-12.8-6.9-1 2.2-87.6 1.4-55.7-64.4-2-44-1.7L0 165.5Z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faOklahoma = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;
