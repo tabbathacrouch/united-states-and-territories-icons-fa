@@ -11,7 +11,7 @@
   "overrides": {
     "AK": { "clip": [-172, 51, -129, 72], "minArea": "150km2" },
     "HI": { "clip": [-160.5, 18.7, -154.5, 22.5], "minArea": "30km2" },
-    "AS": { "clip": [-171.1, -14.6, -169.3, -14.1], "minArea": "5km2" },
+    "AS": { "clip": [-171.1, -14.6, -170.4, -14.1], "minArea": "5km2", "simplify": "resolution=24x24" },
     "MP": { "clip": [145.0, 14.0, 146.2, 15.4], "minArea": "50km2" },
     "PR": { "minArea": "20km2" },
     "VI": { "minArea": "20km2" },
