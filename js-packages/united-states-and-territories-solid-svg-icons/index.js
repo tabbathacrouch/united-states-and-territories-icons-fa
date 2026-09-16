@@ -1,5 +1,5 @@
 /*!
- * United States and Territories Icons 1.0.0 by Tabbatha Crouch - https://github.com/tabbathacrouch/united-states-and-territories-icons-fa
+ * United States and Territories Icons 1.0.1 by Tabbatha Crouch - https://github.com/tabbathacrouch/united-states-and-territories-icons-fa
  * License - MIT
  * Copyright 2026 Tabbatha Crouch
  */
@@ -25,7 +25,7 @@
   var faAmericanSamoa = {
     prefix: 'usat',
     iconName: 'american-samoa',
-    icon: [512, 512, ["as"], "e903", "m477.5 229.6 32.6-3.4 1.9 16.2-13.9-2.3-11.2 8ZM0 266.2l17.5-11.7 20.7.8 14-13.2 11.3-2.2 15.2 3 15-1.5 7.3 6-13 5-7-4.7-14.8 7-17.4 13.2-11 14.8-6.4 3-9.3-6-1.7-8.4Z"]
+    icon: [512, 512, ["as"], "e903", "M0 282.3 64.8 234l23.3-10.6 44.2 7 12.8-7.8 47.6 4.8 70.5-66.2L315 131l4.9 19.2 44 9.7L386 145l10.7 20.7 21.4-7.5 54-.5 39.9-15.3-3 46.2-65.8 25-9.2-26-25.9 2-33.5 28.4-40.9 6.3-4.4-35.4-37.4 1 14.5 50.1-69.8 37 9.4 14.1-55.8 74.6L176 353l-18 28-46.5-30.8-8.8-42.4-57.5-6.4Z"]
   };
   var faAs = faAmericanSamoa;
   var faArizona = {

@@ -136,6 +136,17 @@ The full list, with labels and search terms, is in `metadata/icons.json`.
 Each icon also has a fixed Private Use Area codepoint (U+E900–U+E937, alphabetical by postal code),
 reserved for a future webfont. Codepoints never change or get reused.
 
+### What `american-samoa` draws
+
+`american-samoa` is **Tutuila alone** — the main island, 68% of the territory's land area. The
+Manu'a Islands (Ta'u, Ofu, Olosega) lie 94 km further east, so a to-scale drawing of the whole
+territory spent most of its width on open ocean and was unreadable at every size, including 48px.
+Cropping to Tutuila trades that completeness for an icon that works at 16px.
+
+`hawaii` keeps its full main chain, because there the islands are large and close enough to still
+read as one shape — though it is listed below as a 20px-and-up icon for the same underlying reason.
+If you need the Manu'a Islands shown, treat this icon as unsuitable and use a map.
+
 ## Accessibility and legibility
 
 - A silhouette carries no text meaning on its own. Give every icon a `title` or `aria-label`, or hide it
@@ -145,12 +156,12 @@ reserved for a future webfont. Codepoints never change or get reused.
 
   | Icon | Reads reliably at |
   |---|---|
-  | `american-samoa` | Never on its own — always label it |
   | `northern-mariana-islands`, `us-virgin-islands` | 48px and up |
   | `puerto-rico` | 24px and up |
   | `hawaii` | 20px and up |
 
-  Every other icon, including narrow ones like `tennessee` and `delaware`, is recognizable at 16px.
+  Every other icon, including narrow ones like `tennessee` and `delaware` and the single-island
+  `american-samoa`, is recognizable at 16px.
 
 ## How the icons are made
 
