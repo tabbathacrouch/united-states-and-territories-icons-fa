@@ -140,8 +140,17 @@ reserved for a future webfont. Codepoints never change or get reused.
 
 - A silhouette carries no text meaning on its own. Give every icon a `title` or `aria-label`, or hide it
   with `aria-hidden="true"` when a visible label sits next to it.
-- Small island territories (American Samoa, Northern Mariana Islands, US Virgin Islands) are hard to
-  recognize below 24px. Pair them with the name or postal code.
+- Island shapes are mostly empty space, so they thin out badly as the icon shrinks. Pair these with the
+  name or postal code rather than relying on the silhouette alone:
+
+  | Icon | Reads reliably at |
+  |---|---|
+  | `american-samoa` | Never on its own — always label it |
+  | `northern-mariana-islands`, `us-virgin-islands` | 48px and up |
+  | `puerto-rico` | 24px and up |
+  | `hawaii` | 20px and up |
+
+  Every other icon, including narrow ones like `tennessee` and `delaware`, is recognizable at 16px.
 
 ## How the icons are made
 

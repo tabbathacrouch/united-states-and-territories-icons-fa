@@ -1,5 +1,5 @@
 /*!
- * United States and Territories Icons 0.1.0 by Tabbatha Crouch - https://github.com/tabbathacrouch/united-states-and-territories-icons-fa
+ * United States and Territories Icons 1.0.0 by Tabbatha Crouch - https://github.com/tabbathacrouch/united-states-and-territories-icons-fa
  * License - MIT
  * Copyright 2026 Tabbatha Crouch
  */
