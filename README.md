@@ -9,6 +9,9 @@ SVG sprites, and they're drawn on the same grid, so they sit at the same visual 
 
 > This is an independent project. It is not affiliated with or endorsed by Fonticons, Inc.
 > (Font Awesome) or the U.S. Census Bureau.
+>
+## DEMO
+https://us-icons-poc.vercel.app/
 
 ## Contents
 
