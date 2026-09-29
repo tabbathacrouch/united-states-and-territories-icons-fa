@@ -9,9 +9,12 @@ SVG sprites, and they're drawn on the same grid, so they sit at the same visual 
 
 > This is an independent project. It is not affiliated with or endorsed by Fonticons, Inc.
 > (Font Awesome) or the U.S. Census Bureau.
->
+
+## NPM
+Download on [npm](https://www.npmjs.com/package/united-states-and-territories-solid-svg-icons)
+
 ## DEMO
-https://us-icons-poc.vercel.app/
+Check out [this demo](https://us-icons-poc.vercel.app/) of the icons in action! 
 
 ## Contents
 
